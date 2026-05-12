@@ -39,8 +39,21 @@ Follow these steps to reproduce the results in this project.
 ### 1. Prerequisites
 Ensure you have a Python 3.10+ environment installed. It is recommended to use a virtual environment.
 
-### 2. Install Dependencies
+### 2. Data Preparation
+Due to GitHub's file size restrictions, the zipped datasets are hosted on Google Drive. Please download them and place them in your project directory before running the notebook.
+
+* **Nasdaq Dataset:** [Here](https://drive.google.com/drive/folders/1oxZOKsQtmCoLafu-HbsQpGzEqfH4S87X?usp=drive_link)
+* **Vietnam Dataset:** [Here](https://drive.google.com/drive/folders/1STdVt0YOdUkoPnwVw_WX1pnfmMxRCqzX?usp=drive_link)
+
+**Instructions:**
+1. Download both `.zip` files from the links above.
+2. Unzip the contents into the root directory of this repository.
+3. Verify that the folder names match the paths expected in the notebook (e.g., `./nasdaq_data/` and `./vietnam_data/`).
+
+### 3. Install Dependencies
 Install the required libraries using pip:
 
 ```bash
 pip install numpy pandas matplotlib tensorflow scikit-learn yfinance
+
+
